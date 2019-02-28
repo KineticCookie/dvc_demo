@@ -1,0 +1,10 @@
+cmd: python scripts/train.py
+deps:
+- md5: 20050e00174e2e20c98b1467888ee181
+  path: scripts/train.py
+md5: 0f43a12f1d08e3bbaee088dc5f2cb9f1
+outs:
+- cache: false
+  md5: e5a1dc5a760128c3dfe46d2f9b9cc1a8
+  metric: true
+  path: metrics.json
